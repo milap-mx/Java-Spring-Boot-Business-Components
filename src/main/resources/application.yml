@@ -1,0 +1,11 @@
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/quiz2
+    username: root
+    password: S8-precujoka
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
